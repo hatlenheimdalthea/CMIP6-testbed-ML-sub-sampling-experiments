@@ -42,7 +42,7 @@ Here is an example of how to open the CMIP6-testbed pickle file for ACCESS membe
 
 testbed = pd.read_pickle('https://nyu1.osn.mghpcc.org/leap-pangeo-manual/pco2_all_members_1982-2022/post01_xgb_inputs/ACCESS-ESM1-5/member_r5i1p1f1/MLinput_ACCESS-ESM1-5_r5i1p1f1_mon_1x1_198202_202212.pkl')
 
-Here is an example of how to open the reconstruction Zarr file for ACCESS member r4i1p1f1 from the OSN pod:
+Here is an example of how to open the reconstruction Zarr file for ACCESS member r4i1p1f1 for experiment LR-41yr-collapsed from the OSN pod:
 
 Reconstruction = xr.open_dataset('https://nyu1.osn.mghpcc.org/leap-pubs/hatlenheimdalthea/pco2_residual_testbed_2020-2021_collapsed/post02_xgb_2020-2022/reconstructions/ACCESS-ESM1-5/member_r4i1p1f1/recon_pCO2_ACCESS-ESM1-5_member_r4i1p1f1_mon_1x1_202002_202201.zarr', engine='zarr')
 
