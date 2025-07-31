@@ -46,5 +46,5 @@ Here is an example of how to open the reconstruction Zarr file for ACCESS member
 
 Reconstruction = xr.open_dataset('https://nyu1.osn.mghpcc.org/leap-pubs/hatlenheimdalthea/pco2_residual_testbed_2020-2021_collapsed/post02_xgb_2020-2022/reconstructions/ACCESS-ESM1-5/member_r4i1p1f1/recon_pCO2_ACCESS-ESM1-5_member_r4i1p1f1_mon_1x1_202002_202201.zarr', engine='zarr')
 
-To access any of the other members, swap out the member and ESM names using the overview above. 
+To access any of the other members, swap out the member and ESM names using the list provided above. 
 
