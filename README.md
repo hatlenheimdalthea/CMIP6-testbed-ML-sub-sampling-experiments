@@ -10,7 +10,7 @@ The CMIP6-testbed is publicly accessible on the Open Storage Network (OSN) pod. 
 
 For 1982-2022: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/pco2_all_members_1982-2022/post01_xgb_inputs.
 
-For 1982-2023: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/pco2_all_members_1982-2022/post01_xgb_inputs.
+For 1982-2023: https://nyu1.osn.mghpcc.org/leap-pangeo-manual/pco2_all_members_1982-2023/post01_xgb_inputs.
 
 We also provide paths to four CMIP6-testbed surface ocean pCO2 reconstruction sub-sampling experiments: experiments LR-2yr_masked, LR-2yr_unmasked, LR-41yr and LR-41yr-collapsed. Each of these experiments include 45 Zarr files. 
 
